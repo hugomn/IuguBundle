@@ -1,0 +1,22 @@
+{
+    "name": "hugomn/iugu-bundle",
+    "description": "This bundle provides integration with Iugu API library, allowing you to interact with Iugu API from within your Symfony projects",
+    "keywords": ["iugu", "bundle", "payments"],
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hugomn",
+            "homepage": "https://www.meuingresso.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.3",
+        "kriswallsmith/buzz":">=0.15"
+    },
+    "autoload": {
+        "psr-0": { "Hugomn\\IuguBundle": "" }
+    },
+    "target-dir": "Hugomn/IuguBundle"
+}

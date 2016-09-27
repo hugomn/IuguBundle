@@ -1,0 +1,3 @@
+hugomn_iugu_webhooks:
+    prefix: /iugu
+    resource: "Hugomn\\IuguBundle\\Controller\\WebhooksController"
