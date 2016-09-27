@@ -20,7 +20,6 @@ class WebhooksController extends Controller {
             $webhookEvent = new IuguWebhookEvent($data['event'], $data['data'], $request);
             $this->get('event_dispatcher')->dispatch('hugomn_iugu.webhook', $webhookEvent);
         }
-        $this->get("mail_manager")->sendAdminMessage("Iugu notification", "<pre>" . print_r($data, true) . "</pre>");
         return true;
     }
 }
